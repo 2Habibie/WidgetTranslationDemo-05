@@ -1,6 +1,9 @@
-#ifndef CUSTOMWIDGET_H
-#define CUSTOMWIDGET_H
+#pragma once
 
+#include <QDebug>
+#include <QMetaEnum>
+#include <QTranslator>
+#include <QVariant>
 #include <QWidget>
 #include <QTranslator>
 
@@ -16,6 +19,17 @@ public:
     CustomWidget(QWidget *parent = nullptr);
     ~CustomWidget();
 
+    void init();
+
+    enum Color
+    {
+        Blue,
+        Green,
+        Red
+    };
+
+    Q_ENUM(Color)
+
   public slots:
     void languageChanged(int index);
     void switchTranslator(const QString& filename);
@@ -24,5 +38,9 @@ public:
 private:
     Ui::CustomWidget *ui;
     QTranslator m_translator;
+
+    const QMetaObject &metaObj = staticQtMetaObject;
+    QMetaEnum metaEnumColor;
+    QStringList enumColorKeys;
+    int indexColor;
 };
-#endif // CUSTOMWIDGET_H
