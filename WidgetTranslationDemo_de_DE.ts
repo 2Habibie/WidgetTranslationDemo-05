@@ -22,6 +22,24 @@
         <translation>Englisch</translation>
     </message>
     <message>
+        <location filename="customwidget.h" line="26"/>
+        <source>Blue</source>
+        <translatorcomment>Translated by Google</translatorcomment>
+        <translation>Blauw</translation>
+    </message>
+    <message>
+        <location filename="customwidget.h" line="27"/>
+        <source>Green</source>
+        <translatorcomment>Translated by Google</translatorcomment>
+        <translation>Groente</translation>
+    </message>
+    <message>
+        <location filename="customwidget.h" line="28"/>
+        <source>Red</source>
+        <translatorcomment>Translated by Google</translatorcomment>
+        <translation>Rood</translation>
+    </message>
+    <message>
         <location filename="customwidget.ui" line="117"/>
         <source>German</source>
         <translatorcomment>Translated by Google</translatorcomment>
