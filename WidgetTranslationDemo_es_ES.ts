@@ -4,6 +4,24 @@
 <context>
     <name>CustomWidget</name>
     <message>
+        <location filename="customwidget.h" line="26"/>
+        <source>Blue</source>
+        <translatorcomment>Translated by Google</translatorcomment>
+        <translation>Azul</translation>
+    </message>
+    <message>
+        <location filename="customwidget.h" line="27"/>
+        <source>Green</source>
+        <translatorcomment>Translated by Google</translatorcomment>
+        <translation>Verde</translation>
+    </message>
+    <message>
+        <location filename="customwidget.h" line="28"/>
+        <source>Red</source>
+        <translatorcomment>Translated by Google</translatorcomment>
+        <translation>Rojo</translation>
+    </message>
+    <message>
         <location filename="customwidget.ui" line="14"/>
         <source>Widget Translation Demo</source>
         <translatorcomment>Translated by Google</translatorcomment>
